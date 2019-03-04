@@ -14,9 +14,9 @@ Test each endpoint on http://localhost:5000 by default (Flask)
 
 ### Basic information endpoints
 
-**Endpoint:** /<movie_id>\
-**Info:** Get information of the video, e.g playabilityStatus, videoDetails etc.\
-**Example Response:** \
+**Endpoint:** /<movie_id> <br/>
+**Info:** Get information of the video, e.g playabilityStatus, videoDetails etc. <br/>
+**Example Response:** <br/>
 ```
 "info": {
 "playabilityStatus": {
@@ -25,9 +25,9 @@ Test each endpoint on http://localhost:5000 by default (Flask)
 }
 ```
 
-**Endpoint:** /basic_info/<movie_id>\
-**Info:** Get information of the video for title, description, length, views, rating\
-**Example Response:**\
+**Endpoint:** /basic_info/<movie_id> <br/>
+**Info:** Get information of the video for title, description, length, views, rating <br/>
+**Example Response:** <br/>
 ```
 {
 "title": "ALADDIN Trailer 2 (2019)",
@@ -38,9 +38,9 @@ Test each endpoint on http://localhost:5000 by default (Flask)
 }
 ```
 
-**Endpoint:** /streams/<movie_id>\
-**Info:** Get information of the available video streams.\
-**Example Response:*\
+**Endpoint:** /streams/<movie_id> <br/>
+**Info:** Get information of the available video streams. <br/>
+**Example Response:** <br/>
 ```
 {
 "info": [
@@ -68,12 +68,12 @@ Test each endpoint on http://localhost:5000 by default (Flask)
 },
 ```
 
-**Endpoint:** /captions/<movie_id>\
-**Info:** Get the EN captions if any. You can also uncomment the part of the code where you can download the captions as .srt file\
+**Endpoint:** /captions/<movie_id> <br/>
+**Info:** Get the EN captions if any. You can also uncomment the part of the code where you can download the captions as .srt file <br/>
 
-**Endpoint:** /audio/<movie_id>\
-**Info:** Get all the available audio streams of the video\
-**Example Response:**\
+**Endpoint:** /audio/<movie_id> <br/>
+**Info:** Get all the available audio streams of the video <br/>
+**Example Response:** <br/>
 ```
 {
 "info": [
@@ -95,13 +95,13 @@ Test each endpoint on http://localhost:5000 by default (Flask)
 
 ### Stream downloading endpoints
 
-**Endpoint:** /download/<movie_id>\
-**Info:** Download the FIRST stream from the available video streams\
+**Endpoint:** /download/<movie_id> <br/>
+**Info:** Download the FIRST stream from the available video streams <br/>
 
-**Endpoint:** /download/<movie_id>/stream_position/<stream_position>\
-**Info:** From the list of the available video streams download the one in the specified list position (stream_position)\
+**Endpoint:** /download/<movie_id>/stream_position/<stream_position> <br/>
+**Info:** From the list of the available video streams download the one in the specified list position (stream_position) <br/>
 
 
-**Endpoint:** /download/<movie_id>/itag/<itag>\ 
-**Info:** Download the stream with the specified ITAG from the list of streams\
+**Endpoint:** /download/<movie_id>/itag/<itag> <br/>
+**Info:** Download the stream with the specified ITAG from the list of streams <br/>
 
