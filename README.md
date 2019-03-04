@@ -101,7 +101,7 @@ Test each endpoint on http://localhost:5000 by default (Flask)
 **Endpoint:** /download/<movie_id>/stream_position/<stream_position> <br/>
 **Info:** From the list of the available video streams download the one in the specified list position (stream_position) <br/>
 
-**Endpoint:** /download/<movie_id>/__itag/<__itag>
+**Endpoint:** /download/<movie_id>/__itag__/<__itag__> <br/>
 **Info:** Download the stream with the specified ITAG from the list of streams <br/>
 
 
