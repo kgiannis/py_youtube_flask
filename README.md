@@ -17,7 +17,7 @@ Test each endpoint on http://localhost:5000 by default (Flask)
 **Endpoint:** /<movie_id> <br/>
 **Info:** Get information of the video, e.g playabilityStatus, videoDetails etc. <br/>
 **Example Response:** <br/>
-```
+```json
 "info": {
 "playabilityStatus": {
 "status": "OK",
