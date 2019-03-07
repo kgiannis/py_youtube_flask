@@ -28,7 +28,7 @@ Test each endpoint on http://localhost:5000 by default (Flask)
 **Endpoint:** /basic_info/<movie_id> <br/>
 **Info:** Get information of the video for title, description, length, views, rating <br/>
 **Example Response:** <br/>
-```
+```json
 {
 "title": "ALADDIN Trailer 2 (2019)",
 "description": "New trailer for Aladdin",
@@ -41,7 +41,7 @@ Test each endpoint on http://localhost:5000 by default (Flask)
 **Endpoint:** /streams/<movie_id> <br/>
 **Info:** Get information of the available video streams. <br/>
 **Example Response:** <br/>
-```
+```json
 {
 "info": [
 {
@@ -74,7 +74,7 @@ Test each endpoint on http://localhost:5000 by default (Flask)
 **Endpoint:** /audio/<movie_id> <br/>
 **Info:** Get all the available audio streams of the video <br/>
 **Example Response:** <br/>
-```
+```json
 {
 "info": [
 {
